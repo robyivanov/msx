@@ -1,0 +1,177 @@
+{
+  "name": "NoName",
+    "type": "list",
+  "background": "http://msx.noname.h1n.ru/msx/img/bg.png", 
+  "headline": "NoName Media Station X App Store",
+  "version": "1.0.0",
+  "parameter": "content:http://msx.noname.h1n.ru/msx/start.json",
+  "action": "[settings:validate_links:0|home]", 
+  "dictionary": "http://msx.noname.h1n.ru/msx/lang/ru.json",
+   "template": {
+        "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+		"title":"Lampa",
+         "image": "http://msx.noname.h1n.ru/msx/img/lampa.jpg",
+          "action": "link:http://msx.noname.h1n.ru/lampa/"
+      },
+      {
+		"title":"Lampa Lite",
+         "image": "http://msx.noname.h1n.ru/msx/img/lampa_lite.jpg",
+          "action": "link:http://msx.noname.h1n.ru/lampa_lite/"
+      },
+      {
+		"title":"HDGO",
+         "image": "http://msx.noname.h1n.ru/msx/img/djin.jpg",
+          "action": "link:http://hdgo.me"
+      },
+      /*{
+		"title":"VoKino",
+            "image": "http://msx.noname.h1n.ru/msx/img/vokino.jpg",
+            "action": "link:http://web.vokino.tv/"
+      },*/
+      {
+		"title":"Deeplex",
+            "image": "http://msx.noname.h1n.ru/msx/img/deep.png",
+            "action": "link:http://smart.deeplex.cc"
+      }
+      /*{
+		"title":"Impire Boom",
+            "image": "http://msx.noname.h1n.ru/msx/img/imboom.png",
+            "action": "link:http://web.imboom.ru/"
+      },
+      {
+		"title":"ТВ каналы",
+         "image": "http://msx.noname.h1n.ru/msx/img/iptv.png",
+          "action": "content:http://msx.noname.h1n.ru/iptv/tv.json"
+      },
+      {
+		"title":"Ott-play",
+         "image": "http://msx.noname.h1n.ru/msx/img/ottplay.jpg",
+         "action": "link:http://ott-play.com/f/"
+      },
+      {
+		"title":"OTTplayer",
+         "image": "http://msx.noname.h1n.ru/msx/img/ottplayer.jpg",
+         "action": "link:http://widget.ottplayer.tv"
+      },
+      {
+		"title":"ForkPlayer New Beta",
+         "image": "http://msx.noname.h1n.ru/msx/img/fork_new.png",
+         "action": "link:http://browser.appinfo.su/"
+      },
+      {
+		"title":"Fork App Store",
+            "image": "http://msx.noname.h1n.ru/msx/img/fork_store.jpg",
+            "action": "link:http://smart.obovse.ru/"
+      },
+      {
+		"title":"XSmart",
+         "image": "http://msx.noname.h1n.ru/msx/img/xsmart.png",
+         "action": "link:http://app.xsmart.tv"
+      },
+      {
+		"title":"KinoBoom",
+         "image": "http://msx.noname.h1n.ru/msx/img/kb.jpg",
+         "action": "content:http://kb-team.club/msx/enter.php?welcome"
+      },
+      {
+		"title":"Dstore",
+         "image": "http://msx.noname.h1n.ru/msx/img/dstore.png",
+         "action": "content:http://msx.lh1.in/msx/content.json"
+      },
+      {
+		"title":"Кинопаб",
+         "image": "http://msx.noname.h1n.ru/msx/img/kp.png",
+         "action": "link:http://kpms.cc/"
+      },
+      {
+		"title":"Кинопаб v.2",
+            "image": "http://msx.noname.h1n.ru/msx/img/kpstv.png",
+            "action": "link:http://msx.noname.h1n.ru/kpstv/index.html"
+      },
+      {
+		"title":"Youtube",
+         "image": "http://msx.noname.h1n.ru/msx/img/youtube.jpg",
+         "action": "link:http://www.youtube.com/tv#/"
+      },
+      {
+		"title":"Youtube Kids",
+         "image": "http://msx.noname.h1n.ru/msx/img/ytkids.jpg",
+         "action": "link:https://www.youtube.com/tv/kids"
+      },
+      {
+		"title":"GetsTV",
+         "image": "http://msx.noname.h1n.ru/msx/img/getstv.png",
+         "action": "link:http://kinogets.ru/LG/"
+      },
+      {
+		"title":"Pxel TV",
+            "image": "http://msx.noname.h1n.ru/msx/img/pxel.png",
+            "action": "link:http://app.pxel.tv/"
+      },
+      {
+		"title":"Яндекс видео",
+            "image": "http://msx.noname.h1n.ru/msx/img/yandex.jpg",
+            "action": "link:http://yandex.ru/video/tvapp/"
+      },
+      {
+		"title":"OVP",
+         "image": "http://msx.noname.h1n.ru/msx/img/ovp.png",
+         "action": "link:http://tsnakeman.net.ua/lg/"
+      },
+      {
+		"title":"Тут кино",
+         "image": "http://msx.noname.h1n.ru/msx/img/tutkino.jpg",
+         "action": "link:http://fork-p0rtal.ru/project/"
+      },
+      {
+		"title":"Qwedl Movies",
+         "image": "http://msx.noname.h1n.ru/msx/img/qwedl.png",
+          "action": "link:https://movies.qwedl.com/"
+      },
+      {
+		"title":"Webvideocaster",
+         "image": "http://msx.noname.h1n.ru/msx/img/Webvideocaster.png",
+          "action": "link:http://vewd.webvideocaster.com/"
+      },
+      {
+		"title":"RE! Music",
+         "image": "http://msx.noname.h1n.ru/msx/img/remusic.png",
+         "action": "link:http://tvsam-02.ext.dc3.dailymotion.com/tvapps/dm_editor/app/index.php?id=098158d48c9e6edd&player=html5#fxm"
+      },
+      {
+		"title":"RuTube",
+         "image": "http://msx.noname.h1n.ru/msx/img/rutube.png",
+         "action": "link:https://rutube.ru/tv-release/rutube.server-13.0.0-03/"
+      },
+      {
+		"title":"myTuner",
+         "image": "http://msx.noname.h1n.ru/msx/img/mytuner.png",
+         "action": "link:https://devices.mytuner.mobi/"
+      },
+      {
+		"title":"RadioPlayer",
+         "image": "http://msx.noname.h1n.ru/msx/img/radioplayer.png",
+         "action": "link:http://tv.radioplayer.de/HiSense/"
+      },
+      {
+		"title":"Wifire TV",
+         "image": "http://msx.noname.h1n.ru/msx/img/wifiretv.png",
+         "action": "link:http://lite.tv.ti.ru/storage/webos/"
+      },
+      {
+		"title":"Speedtest",
+         "image": "http://msx.noname.h1n.ru/msx/img/test.png",
+         "action": "link:http://openspeedtest.com/Get-widget.php?Auto=3"
+      },
+      {
+		"title":"THVP (Тест)",
+         "image": "http://msx.noname.h1n.ru/msx/img/tnvp.jpg",
+         "action": "link:http://torrents.thvp.ru/"
+      }*/
+   ]
+}
